@@ -1,4 +1,4 @@
-<center><table height="500" width="500">
+<center><table height="5000" width="5000">
   <tr>
     <th><img src="IMG/ARM.jpg" height="260" width="150"></th>
     <th><p align="center">นาย ยุทธนา พงษ์เผือก</p><br>
