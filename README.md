@@ -1,7 +1,7 @@
 <html>
 <head>
 <body>
-<center><table class="blus" width="450">
+<center><table width="450">
     <tr>
      <center><th><h1>DataAnalysis</h1></th></center>
      <center><th><h1>DataAnalysis</h1></th></center>
