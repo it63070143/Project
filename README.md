@@ -1,6 +1,6 @@
 <center><table>
   <tr>
-    <th><img src="img_chania.jpg" alt="Flowers in Chania" width="345" height="345"></th>
+    <th><img src="MGI/ARM.jpg" height="260" width="150"></th>
     <th><p align="center">นาย ยุทธนา พงษ์เผือก</p><br>
         <p align="center">รหัสนักศึกษา 63070143</p><br>
         <a href=https://www.facebook.com/arm.zebras/photos/>facebook</a><br /><br />
