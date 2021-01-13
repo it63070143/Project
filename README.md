@@ -2,6 +2,9 @@
 <head>
     <center><th><h1>Our Profile</h1></th></center>
 <style>
+    .blue {
+        background-color: #00FFFF;
+}
 </style>
 <body>
     <center><table class="blue">
