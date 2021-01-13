@@ -1,12 +1,10 @@
 <html>
 <head>
-<style>
-  .blus {
-        background-color: white;
-}
-</style>
 <body>
 <center><table class="blus" width="450">
+    <tr>
+     <center><th><h1>DataAnalysis</h1></th></center>
+    </tr>
     <tr>
      <center><th><h1>DataAnalysis</h1></th></center>
     </tr>
