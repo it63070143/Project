@@ -9,7 +9,7 @@
   <th><img src="IMG/A3.jpg" height="250" width="140"></th>
  </tr>
  <tr>
-  <th><p align="center">นาย a</p></th> 
+  <th><p align="center">นางสาวนิดา คงรุ่งเรือง</p></th> 
   <th><p align="center">นาย b</p></th>
   <th><p align="center">นาย c</p></th>
  </tr>
