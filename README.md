@@ -1,31 +1,146 @@
-# ........................
-
-# Member
-
-<center><table>
-  <tr>
-  <th><img src="IMG/A1.jpg" height="260" width="150"></th>
-  <th><img src="IMG/A2.jpg" height="250" width="200"></th>
-  <th><img src="IMG/A3.jpg" height="250" width="140"></th>
- </tr>
- <tr>
-  <th><p align="center">นาย a</p></th> 
-  <th><p align="center">นาย b</p></th>
-  <th><p align="center">นาย c</p></th>
- </tr>
- <tr>
-  <th><p align="center">Student ID: xxxxxxxx</p></th>
-  <th><p align="center">Student ID: xxxxxxxx</p></th>
-  <th><p align="center">Student ID: xxxxxxxx</p></th>
- </table></center>
-
-# Project Description
-
-# Project Objective
-  
-# Result
-
-- Project : <a href=https://it63070143.github.io/Project/>Website</a><br /><br />
-- Video : 
-     
-# References
+<html>
+<head>
+<style>
+    .blue {
+        background-color: #00FFFF;
+}
+    .blus {
+        background-color: white;
+}
+    .blss {
+        background-color: Yellow;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <center><title>Data Analysis: e-sport by KAIF</title></center>
+<hr>
+<body background="MGI/Night.gif" height="600" width="1200">
+<center><table class="blus" width="450">
+    <tr>
+    <center><th><h1>Data Analysis</h1></th></center>
+    </tr>
+</table></center><br><br>
+    <hr>
+<center><table class="blus" width="1400">
+    <tr>
+    <center><th><h2>Welcome to our website</h2></th></center>
+</table></center><br><br>
+    <center><img src="MGI/ES3.jpg" height="600" width="1200"></center>
+<center><table class="blss" width="1300">
+    <tr>
+    <p><h4><th>#Web นี้จะมีเนื้อหาที่เกี่ยวข้องกับการจัดอันดับในด้านต่างๆ เช่น รายได้ของเกม, ความนิยม, มูลค่าเงินรางวัล ฯลฯ ซึ่งจะเน้นด้านข้อมูลที่เกี่ยวข้องกับ e-sport ซึ่งกำลังได้รับความนิยมอย่างแพร่หลายในปัจจุบัน e-sport นั้นนอกจากจะเป็นกีฬา ที่ให้ความบันเทิงแล้วนั้นยังช่วยสร้างรายได้ให้กับนักกีฬา นักพากย์ หรือ ทุกอาชีพที่มีความเกี่ยวข้องกับเกมที่ถูกจัดอยู่ในหมวดเกม ที่สามารถใช้เป็นกีฬาทางอิเล็กทรอนิกส์หรือที่เรามักเรียกกันว่า e-sportนั้นเอง</th></p></h4>
+    </tr>
+</table></center><br><br>
+    <hr>
+<center><table class="blue">
+    <tr>
+    <th><img src="svg/TopGameAwardPrize.svg" height="450" width="450"></th>
+    <th><img src="svg/Top20HighestEarnings.svg" height="450" width="450"></th>
+    <th><img src="svg/Top20teamesportearnings.svg" height="450" width="450"></th>
+    </tr>
+    <tr>
+    <th><h1><p align="center">TopGameAwardPrize</p></h1></th>
+    <th><h1><p align="center">TopHighestEarnings</p></h1></th>
+    <th><h1><p align="center">TopTeamE-SportEarnings</p></h1></th>
+    </tr>
+</table></center><br><br>
+<table class="blus" width="500">
+    <tr>
+    <center><th><h1>TopGameAwardPrize</h1></th></center>
+    </tr>
+</table>
+<font color="#00FFFF">
+<p><h2>กราฟนี้แสดงให้เห็นถึงเกมที่เงินรางวัลในการแข่งขันเกมมากที่สุดรวมทุกรายการ โดยจัดเป็น 20 อันดับ</p></h2><br>
+</font>
+<font color="white">
+<p><h4>โดยอันดับจะเป็นใครไปไม่ได้นอกจากเกมDota2 มีมูลค่าเงินรางวัลรวมถึง 228 ล้านUsd โดยเงินรางวัลของเกมไม่ได้จาก บริษัท Value ผู้ให้บริการเกม Dota2 เพียงอย่างเดียว </p></h4>
+<p><h4>แต่มาจากรายได้ที่แฟนๆเกมDota2 ใช้จ่าย Battle Pass กิจการประจำการแข่งขันเกมDota2  ยิ่งแฟนๆยิ่งใช้จ่ายมาก ก็จะได้ไอเทมสวยๆไปใช้ในอีกทาง นักกีฬาก็จะได้รับเงินรางวัลมากขึ้น</p></h4>
+<p><h4>ถือเป็นการสนับสนุนทั้งตัวเกม บริษัทที่ผลิต และนักกีฬาไปในตัวอีกด้วย</p></h4><br><br>
+</font>
+<table class="blus" width="500">
+    <tr>
+    <center><th><h1>TopHighestEarnings</h1></th></center>
+    </tr>
+</table>
+<font color="#00FFFF">
+<p><h2>กราฟนี้แสดงให้เห็นถึงรายได้นักกีฬาesport20อันดับแรกที่ได้รับเงินรางวัลมากที่สุด โดยจัดเป็น 20 อันดับ</p></h2><br>
+</font>
+<font color="white">
+<p><h4>ใน20อันดับแรก จะพบเป็นผู้เล่นเกม Dota2 ถึง 19 คนเลยทีเดียว ถือว่าเป็นเรื่องน่าสนใจ เพราะว่าเกม Dota2 นั้นเป็นเกมที่มีเงินรางวัลรวมในแต่ละปีที่ค่อนข้างสูง และยังเป็นเกมที่ครองสถิติเกม</p></h4>
+<p><h4>ที่มีเงินรางวัลในการแข่งขันมากที่สุดในโลก ถึงแม้ว่าจะไม่ได้อันดับที่1 ในการแข่งขัน แต่การยังสามารถทำรายได้ได้มากมาย</p></h4><br><br>
+</font>
+<table class="blus" width="500">
+    <tr>
+    <center><th><h1>TopTeamE-SportEarnings</h1></th></center>
+    </tr>
+</table>
+<font color="#00FFFF">
+<p><h2>กราฟนี้แสดงให้เห็นถึงรายชื่อ eSports Team ทั่วโลกที่ทำรายได้รวมสูงสุด โดยจัดเป็น 20 อันดับ</p></h2><br>
+</font>
+<font color="white">
+<p><h4>โดยส่วนใหญ่แล้วอันดับทีมที่ติดเข้ามา จะทีมย่อยไว้สังกัดในการแข่งขันหลายๆเกม เช่น Dota2,Csgo, Lol และอื่นๆ โดยอันดับที่1 ทีม Team Liquid  ที่อยุ่คู่วงการมานาน มีนักกีฬาในสังกัดมากมายหลายคน</p></h4>
+<p><h4>และอยุ่แข่งขันหลากหลายเกม ชื่อของพวกเขามักปรากฏอยุ่ในงานแข่งในหลายรายการระดับโลกอยุ่เสมอ   ปี2020 อาจเป็นปีที่ยากลำบากสำหรับวงการesport เนื่องจากการแพร่ระบาดของไวรัส COVID-19</p></h4>
+<p><h4>ทำให้การแข่งขันหลายรายการต้องยกเลิกไป แต่ถึงจะยังงั้นนักกีฬาก็ยังต้องสร้างผลงานการแข่งขันที่ยังพอมีเหลืออยุ่บ้างให้ได้ตามสมควร</p></h4><br><br>
+</font>
+<center><img src="MGI/ES2.jpg" height="500" width="1000"></center><br><br>
+<hr><br><br>
+<center><table class="blue">
+    <tr>
+    <th><img src="svg/FRANCHISES.svg" height="450" width="450"></th>
+    <th><img src="svg/TopVideoGameConsolesSell.svg" height="450" width="450"></th>
+    <th><img src="svg/topcompanies.svg" height="450" width="450"></th>
+    </tr>
+    <tr>
+    <th><h1><p align="center">TopFranchises</p></h1></th>
+    <th><h1><p align="center">TopVideoGameConsolesSell</p></h1></th>
+    <th><h1><p align="center">TopCompanies</p></h1></th>
+    </tr>
+</table></center><br><br>
+</table></center><br><br>
+<table class="blus" width="500">
+    <tr>
+    <center><th><h1>TopFranchises</h1></th></center>
+    </tr>
+</table>
+<font color="#00FFFF">
+<p><h2>กราฟนี้แสดงให้เห็นถึงยอดขายFranchisesเกมที่สูงที่สุด โดยจัดเป็น 20 อันดับ</p></h2><br>
+</font>
+<font color="white">
+<p><h4>Franchise Pokemon มีรายได้ทั้งหมดถึง 90000 ล้านUSdเลยทีเดียว ชื่อที่ใครได้ยินก็คงรู้จักกันแน่นอน เปิดตัวครั้งแรกเมื่อปี1996 จนถึงปัจจุบัน ก็ 23 ปี มาแล้วเป็น Franchisesที่สร้างตำนานเลยก็ว่าได้</p></h4>
+<p><h4>นี่ยังไม่นับมูลค่าของสิ่งต่างๆ นอกเหนือที่ไม่ใช่เกม มีทั้งของเล่นสะสม และอื่นๆ ที่ทำเงินให้กับ Franchises อันดับ 2 อย่าง Mario ก็ไม่ธรรมดา มี Series มากมาย เป็นอีกFranchiseที่ยิ่งใหญ่</p></h4>
+<p><h4>เมื่อพูดวิดีโอเกมที่เราเล่นกัน ตั้งแต่เกมแรกบนเครื่องเล่นConsoleจนถึงเกมที่วางจำหน่ายล่าสุดในยุคปัจจุบัน ก็มีอยุ่มากมาย บางเกมถ้ายอดขายดีมีชื่อเสียง ก็จะออกภาคต่อFranchiseตัวเองออกมา</p></h4>
+<p><h4>จนทำรายได้ที่น่าทึ่งในวงการเกมกันเลยทีเดียว</p></h4><br><br>
+</font>
+<table class="blus" width="500">
+    <tr>
+    <center><th><h1>TopVideoGameConsolesSell</h1></th></center>
+    </tr>
+</table>
+<font color="#00FFFF">
+<p><h2>กราฟนี้แสดงให้เห็นถึงยอดเครื่องเล่นเกมConsole โดยจัดเป็น 10 อันดับ</p></h2><br>
+</font>
+<font color="white">
+<p><h4>อุตสาหกรรมvideo game  เป็นอุตสาหกรรมที่เติบโตขึ้นเรื่อยๆในปัจจุบัน ในกราฟเราจะได้เห็นได้ว่า PS2 ขายดีที่สุดอย่างไม่ต้องสงสัยเลย เนื่องจากเป็นหนึ่งในเครื่องเล่นดีวีดีที่มีราคา</p></h4>
+<p><h4>ที่เรียกได้ว่าประหยัดที่สุดในยุคนั้น ส่วนหนึ่งของความสำเร็จเกิดจากการผลิตมานานกว่า10กว่าปี นั่นทำจำนวนยอดขายพุ่งไปถึง157ล้านเครื่องเลยทีเดียว ทำให้เครื่องเล่นPlayStation </p></h4>
+<p><h4>เป็นเครื่องเล่นconsoleยอดนิยมและที่รักมากที่สุดในยุคปัจจุบัน อุตสาหกรรมเกมมีการเปลี่ยนแปลงตลอดเวลา แต่เครื่องเล่นเกมบางประเภทจะเป็นสถานที่พิเศษในใจของเราตลอดไป</p></h4>
+<p><h4>เวอร์ชันรีมาสเตอร์และภาคต่อของเกมโปรด ก็เป็นส่วนหนึ่งของรายได้ยอดขายเครื่องเล่นเกมเหล่านี้</p></h4><br><br>
+</font>
+<table class="blus" width="500">
+    <tr>
+    <center><th><h1>TopCompanies</h1></th></center>
+    </tr>
+</table>
+<font color="#00FFFF">
+<p><h2>กราฟนี้แสดงให้เห็นถึงรายได้ของบริษัทเกม โดยจัดเป็น 10 อันดับ</p></h2><br>
+</font>
+<font color="white">
+<p><h4>ในปีที่ผ่านมา Sony ถือว่าเป็นบริษัทเกมที่มีรายได้สูงที่สุดในโลก ซึ่งมาจากการประสบความสำเร็จของเครื่องเล่น PlayStation 4 เนื่องจากเกม Exclusive ของทาง Sony ทำออกมาได้อย่างดีเยี่ยม</p></h4>
+<p><h4>จึงทำให้พวกเขามีรายได้สูงขนาดนี้ ปัจจุบันวงการเกมถือว่าเป็นหนึ่งในอุตสาหกรรมที่มูลค่าสูงขึ้นเรื่อยๆ โดยเกมต่างๆนั้นจะไม่สามารถเริ่มขึ้นได้เลย หากไม่มีบริษัทเกมเหล่านี้ที่ได้ทุมเม็ดเงิน</p></h4>
+<p><h4>เพื่อที่จะพัฆนาเกมเหล่านี้ให้ออกดีให้เราเห็นได้มากมาย</p></h4><br><br>
+</font>
+<center><img src="MGI/ES4.jpg" height="600" width="1000"></center><br><br>
+</body>
+</head>
+</html>
