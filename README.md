@@ -5,12 +5,12 @@
 <center><table>
   <tr>
   <th><img src="IMG/A1.jpg" height="260" width="150"></th>
-  <th><img src="IMG/A2.jpg" height="250" width="200"></th>
+  <th><img src="IMG/A2.jpg" height="250" width="250"></th>
   <th><img src="IMG/A3.jpg" height="250" width="140"></th>
  </tr>
  <tr>
   <th><p align="center">นางสาวนิดา คงรุ่งเรือง</p></th> 
-  <th><p align="center">นางสาวธนัชพร รัศมีสุริยะ b</p></th>
+  <th><p align="center">นางสาวธนัชพร รัศมีสุริยะ</p></th>
   <th><p align="center">นาย c</p></th>
  </tr>
  <tr>
