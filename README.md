@@ -25,7 +25,7 @@
 
 # Result
 
-- Project : <a href=https://it63070143.github.io/Project/%3EWebsite</a><br /><br />
+- Project : <a href=https://it63070143.github.io/Project/%3EWeb</a><br /><br />
 - Video : 
 
 # References
