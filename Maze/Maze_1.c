@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <windows.h>
 /*
     Use "w", "s" on the keyboard,
@@ -38,7 +37,7 @@ int main(){
     for(i=0;i<=18;i++)
         puts(a[i]);
     while(x != p || y != q){
-        ch = getch();
+        ch = getchar();
         if(ch == 's')
         {
             if(a[x+1][y] != '_' && a[x+1][y] != '|')
@@ -107,7 +106,7 @@ int main(){
     for(i=0;i<=18;i++)
         puts(b[i]);
     while(x != p || y != q){
-        ch = getch();
+        ch = getchar();
         if(ch == 's')
         {
             if(b[x+1][y] != '_' && b[x+1][y] != '|')
@@ -176,7 +175,7 @@ int main(){
     for(i=0;i<=18;i++)
         puts(c[i]);
     while(x != p || y != q){
-        ch = getch();
+        ch = getchar();
         if(ch == 's')
         {
             if(c[x+1][y] != '_' && c[x+1][y] != '|')
@@ -245,7 +244,7 @@ int main(){
     for(i=0;i<=18;i++)
         puts(d[i]);
     while(x != p || y != q){
-        ch = getch();
+        ch = getchar();
         if(ch == 's')
         {
             if(d[x+1][y] != '_' && d[x+1][y] != '|')
@@ -314,7 +313,7 @@ int main(){
     for(i=0;i<=18;i++)
         puts(e[i]);
     while(x != p || y != q){
-        ch = getch();
+        ch = getchar();
         if(ch == 's')
         {
             if(e[x+1][y] != '_' && e[x+1][y] != '|')
