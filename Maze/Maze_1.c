@@ -443,8 +443,7 @@ int main(){
                 puts(e[i]);
     }
     printf("\n\nStage 5 Clear!\n\n");
-    printf("This is count of you Incorrect answer: %d\n");
-    printf("\nThank For Playing");
+    printf("\nThank For Playing\n");
     return 0;
 }
 
@@ -454,33 +453,33 @@ void quiz_1(int(walk)){
         printf("\n1. Which of the following is not a correct variable type?\n(1) int		        (2) char\n(3) double		(4) num\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==4){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=4){
+            printf("Incorrect!!!\n");
         }
     }
     if (walk == 23){
         printf("\n2. What is the correct value to return to the operating system upon the successful completion of a program?\n(1) 0			(2) 1\n(3) -1			(4) 0.1\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==1){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=1){
+            printf("Incorrect!!!\n");
         }
     }
     if (walk == 39){
         printf("\n3. Which of the following is the correct operator to compare two variables?\n(1) equl		(2) !=\n(3) =			(4) ==\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==4){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=4){
+            printf("Incorrect!!!\n");
         }
     }
 }
@@ -491,33 +490,33 @@ void quiz_2(int(walk)){
         printf("\n4. What is the only function all C programs must contain?\n(1) main()		(2) int()\n(3) int()		(4) float()\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==1){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=1){
+            printf("Incorrect!!!\n");
         }
     }
     if (walk == 20){
         printf("\n5. What punctuation ends most lines of C code?\n(1) :            (2) ;\n(3) ""             (4) .\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==2){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=2){
+            printf("Incorrect!!!\n");
         }
     }
     if (walk == 41){
         printf("\n6. Which function is used to print something on console (c language)?\n(1) scanf()         (2) getch()\n(3) printf()        (4) print()\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==3){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=3){
+            printf("Incorrect!!!\n");
         }
     }
 }
@@ -528,33 +527,33 @@ void quiz_3(int(walk)){
         printf("\n7. which function is used to read the input from console?\n(1) scanf()          (2) get()\n(3) getchar()        (4) printf()\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==1){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=1){
+            printf("Incorrect!!!\n");
         }
     }
     if (walk == 25){
         printf("\n8.Which symbol is used to make comments in C?\n(1) //            (2) #\n(3) !!            (4) <!--\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==1){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=1){
+            printf("Incorrect!!!\n");
         }
     }
     if (walk == 40){
         printf("\n9.In which standard library file is the function printf() located?\n(1) ctype.h         (2) stdlib.h\n(3) string.h        (4) stdio.h\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==4){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=4){
+            printf("Incorrect!!!\n");
         }
     }
 }
@@ -565,33 +564,33 @@ void quiz_4(int(walk)){
         printf("\n10.How would you round off a value from 4.66 to 5.0?\n(1) floor(4.66)        (2) ceil(4.66)\n(3) roundup(4.66)      (4) roundto(4.66)\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==2){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=2){
+            printf("Incorrect!!!\n");
         }
     }
     if (walk == 25){
         printf("\n11. Which of the following special symbol allowed in a variable name?\n(1) -            (2) _\n(3) *            (4) |\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==2){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=2){
+            printf("Incorrect!!!\n");
         }
     }
     if (walk == 41){
         printf("\n12.If the two strings are identical, then strcmp() function returns\n(1) 0             (2) 1\n(3) -1            (3) True\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==1){
+            printf("Correct!\n");
         }
-        else{
-            printf("Incorrect!!!");
+        else if (ans!=1){
+            printf("Incorrect!!!\n");
         }
     }
 }
@@ -602,10 +601,10 @@ void quiz_5(int(walk)){
         printf("\n13.Which of the following shows the correct syntax for an if statement ?\n(1) expression if       (2) if expression\n(3) if { expresssion    (4) if (expression)\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==4){
+            printf("Correct!");
         }
-        else{
+        else if (ans!=4){
             printf("Incorrect!!!");
         }
     }
@@ -613,10 +612,10 @@ void quiz_5(int(walk)){
         printf("\n14. What is the final value of x when the code\nint x;\nfor(x=0;x<10;x++){}\nis run?\n(1) 0            (2) 1\n(3) 9            (4) 10    \n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==4){
+            printf("Correct!");
         }
-        else{
+        else if (ans!=4){
             printf("Incorrect!!!");
         }
     }
@@ -624,10 +623,10 @@ void quiz_5(int(walk)){
         printf("\n15.How many times is a do while loop guaranteed to loop?\n(1) 1                 (2) 0\n(3) Infinitely        (3) Variable\n");
         printf("Your answer is  ");
         scanf("   %d", &ans);
-        if (ans=1){
-            printf("correct!");
+        if (ans==1){
+            printf("Correct!");
         }
-        else{
+        else if (ans!=1){
             printf("Incorrect!!!");
         }
     }
