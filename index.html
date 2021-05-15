@@ -1,12 +1,95 @@
 <html>
-<head><title>นาย ยุทธนา พงษ์เผือก (63070143)</title></head>
-<style>
-    body{
-        background-image: linear-gradient(hsl(180, 100%, 100%),hsl(180, 100%, 85%),hsl(180, 100%, 70%),hsl(180, 100%, 55%));
-        margin:0;
-        display:flex;
-        font-family:sans-serif;
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Kanit">
+    <style>
+    body {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        font-family: Kanit;
+        background-color: black;
+        background-image: linear-gradient( rgb(6, 8, 37), rgb(24, 33, 160), rgb(44, 53, 185), rgb(86, 97, 243));
+        }
+    h1, h2, h3, p {
+        margin: 0;
+        font-family: Kanit;
+        color: white;
+        }
+    h1 {
+        font-size: 48px;
+        color: rgb(245, 211, 22);
+        text-shadow:2px 2px rgb(255, 136, 0);
     }
+    h2 {
+        font-size: 28px;
+        color: rgb(245, 211, 22);
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        text-indent: 2%;
+        font-size: 16px;
+    }
+    .title-contain {
+        padding: 0% 10% 0% 10%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 80%;
+        /*position: fixed;*/
+        background-color: black;
+    }
+    .material-content1 { /*จองพื้นที่content1 Game detail*/
+        position: relative;
+        width: 100%;
+        height: auto;
+        border: none;
+        background-color: black;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        /*background-image: linear-gradient(hsl(180, 100%, 100%),hsl(180, 100%, 85%),hsl(180, 100%, 70%),hsl(180, 100%, 55%));*/
+    }
+    .material-content2 { /*จองพื้นที่content1 Game detail*/
+        position: relative;
+        width: 100%;
+        height: auto;
+        border: none;
+        /*background-color: rgb(255, 145, 0);*/
+        /*background-color: black;*/
+        padding-top: 3%;
+        padding-bottom: 3%;
+        /*background-image: linear-gradient(hsl(180, 100%, 100%),hsl(180, 100%, 85%),hsl(180, 100%, 70%),hsl(180, 100%, 55%));*/
+    }
+    img {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /*ขนาดรูป*/
+    .picture-material {
+        width: 5%;
+        background-size: 20%;
+        margin: auto;
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    /*ปุ่ม*/
+    a:link, a:visited {
+        background-color: #f87a26;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    a:hover, a:active {
+        background-color: #dd6f25;
+    }
+
     @keyframes kraprib{
       from{opacity:3}
       to{opacity:0}
@@ -16,16 +99,16 @@
       to{transform:rotate(360deg)}
     }
     @keyframes shooting1{
-      from {top:400px;}
-      to {top: 50px;}
+      from {top: 50%;}
+      to {top: 10%;}
     }
     @keyframes shooting3{
-      from {top: 400px;}
-      to {top: 200px;}
+      from {top: 70%;}
+      to {top: 55%;}
     }
     @keyframes shooting5{
-      from {top: 400px;}
-      to {top: 150px;}
+      from {top: 100%;}
+      to {top: 30%;}
     }
     .star{
       position:absolute;
@@ -37,7 +120,7 @@
     }
       .star:nth-child(1){
       top:5%;
-      left:5%;
+      left:10%;
       animation:kraprib 2s infinite alternate,moon 0.01s infinite linear,shooting1 2s infinite linear,shooting2 1s infinite linear;
     }
       .star:nth-child(2){
@@ -101,7 +184,7 @@
       animation:kraprib 1s infinite alternate,moon 0.01s infinite linear,shooting3 3s infinite linear,shooting4 2s infinite linear;
     }
       .star:nth-child(14){
-      top:80%;
+      top:150%;
       left:50%;
       animation:kraprib 2s infinite alternate,moon 0.01s infinite linear;
     }
@@ -130,120 +213,110 @@
       left:80%;
       animation:kraprib 5s infinite alternate,moon 0.01s infinite linear;
     }
-    .star:nth-child(1){
-      top:5%;
-      left:5%;
-      animation:kraprib 2s infinite alternate,moon 0.01s infinite linear,shooting1 2s infinite linear,shooting2 1s infinite linear;
-    }
-      .star:nth-child(1){
-      top:5%;
-      left:5%;
-      animation:kraprib 2s infinite alternate,moon 0.01s infinite linear,shooting1 2s infinite linear;
-    }
-      .button{
-      background-image: linear-gradient(hsl(60, 100%, 50%),hsl(180, 100%, 100%));
-      width: 200px;
-      height: 100px;
-      top:10%;
-      left:45%;
-      position:absolute;
-      border-radius: 80%;
-      font-size: 28px;
-    }
-      .button1{
-      background-image: linear-gradient(hsl(204, 100%, 50%),hsl(180, 100%, 100%));
-      width: 200px;
-      height: 100px;
-      top:30%;
-      left:45%;
-      position:absolute;
-      border-radius: 80%;
-      font-size: 28px;
-    }
-      .button2{
-      background-image: linear-gradient(hsl(280, 100%, 70%),hsl(180, 100%, 100%));
-      width: 200px;
-      height: 100px;
-      top:50%;
-      left:45%;
-      position:absolute;
-      border-radius: 80%;
-      font-size: 28px;
-    }
-      .button3{
-      background-image: linear-gradient(hsl(0, 100%, 50%),hsl(180, 100%, 100%));
-      width: 200px;
-      height: 100px;
-      top:70%;
-      left:45%;
-      position:absolute;
-      border-radius: 80%;
-      font-size: 28px;
-    }
+    </style>
 
-      .font{
-      top:15%;
-      left:46.5%;
-      position:absolute;
-      font-size: 28px;
-    }
-      .font1{
-      top:35%;
-      left:47%;
-      position:absolute;
-      font-size: 28px;
-    }
-      .font2{
-      top:55%;
-      left:49.5%;
-      position:absolute;
-      font-size: 28px;
-    }
-      .font3{
-      top:75%;
-      left:48.5%;
-      position:absolute;
-      font-size: 28px;
-    }
-</style>
-<body>
-  <div class="button" top=></div>
-  <div class="button1" top=></div>
-  <div class="button2" top=></div>
-  <div class="button3" top=></div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="star">
-  </div>
-  <div class="font">Game Detail</div>
-  <div class="font1">How to play</div>
-  <div class="font2">Code</div>
-  <div class="font3">Credits</div>
-</body>
+    <title>Maze n Quiz</title>
+    <head></head>
+    <body>
+        <div class="title-contain">
+            <h1 style="text-shadow:5px 5px red;">Maze n Quiz</h1>
+            <br>
+        </div>
+
+        <div class="material-content2">
+            <center>
+            <h1>Game Detail</h1><br>
+            <h2>จะเป็นยังไงถ้าหากวันหนึ่งเกมเขาวงกตที่เราเล่น ไม่ใช่แค่เกมเขาวงกตธรรมดา?</h2>
+            <h3>เกมของเราเป็นเกมเขาวงกตที่ทำได้มากกว่าให้ความเพลิดเพลิน</h3><br>
+            <h2>แล้วมันเป็นอย่างไร?</h2>
+            <h3>เขาวงกตของเราจะมีอุปสรรคเพิ่มเติมเป็นการตอบคำถามในระหว่างหาทางออก</h3><br>
+            <h2>สรุป</h2>
+            <h3>โปรเจคของเราเป็นโปรเจคที่นำการเล่นเขาวงกตมาดัดแปลงเพิ่มเติม</h3>
+            <h3>ด้วยการใส่ฟังก์ชั่นของแบบทดสอบ หรือที่เรียนว่าควิซ เพิ่มเข้าไปโดยที่ควิซที่เรานำมาใส่ เป็นความรู้เกี่ยวกับภาษาซี</h3>
+            <h3>หากผู้เล่นต้องการเปลี่ยนเนื้อหาเป็นความรู้ด้านอื่นๆ ก็สามารถนำโค้ดไปดัดแปลงในฟังก์ชั่นของคำถามได้เช่นกัน</h3><br>
+            <img src="pic2.png">
+            </center>
+            
+            <!--<div class="picture-contain1">
+                <br>
+                <img src="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="picture-material">
+                <br>
+                <h2>ก๊าซเรือนกระจก</h2>
+                <p>พลาสติกที่กำลังย่อยสลายสามารถปล่อยก๊าซเรือนกระจก</p>
+                <p>ที่มีผลกระทบต่อการเปลี่ยนแปลงสภาพอากาศ ระดับนํ้าทะเลที่สูงขึ้น</p>
+                <p>อุณหภูมิโลกที่เพิ่มขึ้นระบบนิเวศบนบกและในมหาสมุทร</p>
+            </div>-->
+        </div>
+
+        <div class="material-content1">
+            <center>
+            <h1>How to play</h1><br>
+            <h3>ผู้เล่นจะต้องเดินไปให้ถึงทางออก โดยในระหว่างทางก็จะมีการ random คำถามออกมา</h3>
+            <h3>โดยในระหว่างทางที่เดินก็จะมีคำถามสุ่มออกมาเรื่อยๆ ผู้เล่นก็จะต้องคอยตอบคำถามเรื่อยๆ</h3>
+            <h3>เมื่อไปถึงทางออกก็จะถือว่าผ่านใน stage นั้นๆ แต่ก็ยังคงมี stage ถัดไป</h3>
+            <h3>ผู้เล่นจะต้องเล่นให้จบ stage สุดท้ายจึงจะถือว่าเป็นการจบเกมโดยสมบูรณ์แบบ</h3>
+            <br>
+            <h2>วิธีการเดิน</h2>
+            <h3>ใช้ปุ่มตัวอักษรบนคีย์บอร์ดในการเดิน (a, d, w, s)</h3>
+            <h3>a = เดินไปทางซ้าย  d = เดินไปทางขวา</h3>
+            <h3>w = เดินขึ้นข้างบน  w = เดินลงข้างล่าง</h3>
+            <br>
+            <h2>วิธีการตอบคำถาม</h2>
+            <h3>ผู้เล่นต้องเลือกคำตอบที่ถูกต้อง</h3>
+            <h3>จากนั้นผู้เล่นสามารถเลือกตอบได้โดยการพิมพ์ตัวเลขที่เลือกลงไป</h3>
+            <h3>เมื่อตอบคำถามเสร็จระบบจะทำการแจ้งว่าคำตอบที่ตอบมานั้นถูกหรือผิด</h3><br>
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+            </iframe>
+            </center>
+        </div>
+
+        <div class="material-content2">
+            <center>
+            <h1 style="text-align: center;">Code</h1><br>
+            <h2 style="color: white;">Get The Source Code</h2>
+            <h2 style="color: white;">Let's see on our github</h2><br>
+            <a href="https://github.com/it63070143/Project" target="_blank">Click Here :)</a>
+            </center>
+        </div>
+
+        <div class="material-content1">
+            <center>
+            <h1 style="text-align: center;">Credit</h1><br>
+            <h2 style="color: white;">Source code : Maze game</h2>
+            <a href="https://www.programmersought.com/article/64865812839/" target="_blank">Maze game</a><br>
+            <h2 style="color: white;">More Quiz about C language</h2>
+            <a href="https://www.javatpoint.com/c-quiz" target="_blank">Quiz C language</a>
+            </center>
+        </div>
+
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+        <div class="star">
+        </div>
+    </body>
+    <footer style="background-color: white; color: black;"><center>Project for subject : Computer Programming</center></footer>
 </html>
