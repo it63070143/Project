@@ -40,3 +40,6 @@
 # References
 <th><p>Maze game : https://www.programmersought.com/article/64865812839/</p></th>
 <th><p>Quiz : https://www.javatpoint.com/c-quiz</p></th>
+
+# Poster
+<img src="poster.png">
