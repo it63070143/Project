@@ -26,6 +26,6 @@
 # Result
 
 - Project : <a href=https://it63070143.github.io/Project/>Website</a><br /><br />
-- Video : <a href=https://www.youtube.com/watch?v=cc7VhSrwoNs/>Youtube</a><br /><br />
+- Video : <a href=https://www.youtube.com/watch?v=cc7VhSrwoNs>Youtube</a><br /><br />
 
 # References
