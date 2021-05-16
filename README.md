@@ -26,6 +26,11 @@
 
 
 # Project Objective
+<th><p>1.เพื่อให้ผู้เล่นได้ฝึกฝนทักษะความรู้ไปพร้อมๆกับการเล่นเกม</p></th>
+<th><p>2.เพื่อพัฒนาเกมที่มีอยู่เดิมให้สามารถเล่นได้หลากหลายมากขึ้น</p></th>
+<th><p>3.ฝึกฝนทักษะการเขียนโค้ดของผู้จัดทำ</p></th>
+<th><p>4.ฝึกฝนการทำงานร่วมกันเป็นทีมของผู้จัดทำ</p></th>
+<th><p>5.เพื่อเป็นโครงงานส่วนหนึ่งของวิชา Computer Programming</p></th>
 
 # Result
 
@@ -33,3 +38,5 @@
 - Video : <a href="https://www.youtube.com/watch?v=cc7VhSrwoNs">Youtube</a><br /><br />
 
 # References
+<th><p>Maze game : https://www.programmersought.com/article/64865812839/</p></th>
+<th><p>Quiz : https://www.javatpoint.com/c-quiz</p></th>
